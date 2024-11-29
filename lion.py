@@ -2,7 +2,7 @@ from collections import Counter # для подсчета частоты эле�
 import docx # чтобы работать в docx
 import re 
 import pandas as pd #бб,чтобы работать с таблицами и анализа данных
-import matplotlib.pyplot as plt # для графика
+import matplotlib.pyplot as plt
 file_path = 'lion.docx'
 doc = docx.Document(file_path)
 text = []
